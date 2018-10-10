@@ -9,7 +9,7 @@ This is the reference for the Enumivo Oracle REST APIs. The REST APIs are for de
 This method returns a list of members registered in enumivo oracle.
 
 ###### Responses
-| Code | Type | Descriptio |
+| Code | Type | Description |
 | --- | --- | --- |
 | `200` OK | application/json | Returns paginated list of organizations. |
 
