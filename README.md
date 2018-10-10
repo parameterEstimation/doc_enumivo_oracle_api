@@ -14,10 +14,16 @@ This method returns a list of members registered in enumivo oracle.
 | `200` OK | application/json | Returns paginated list of organizations. |
 
 ###### Query parameters
-| Query | Type | Description |
-| --- | --- | --- |
-| `limit` | integer | The maximum number of items to return per page. |
-| `search` | string | Search filter lookup to screen name and enumivo mainnet account. |
+| Query | Type | Behavior | Description |
+| --- | --- | --- | --- |
+| `limit` | integer | | The maximum number of items to return per page. |
+| `search` | string | contains |Search filter lookup to screen name and enumivo mainnet account. |
+| `screen_name` | string | exact |Search by screen name. |
+| `user__enu_account_info__enu_mainnet_account` | exact | contains |Search by enumivo mainnet account. |
+| `user__enu_user_class__is_profile_verified` | boolean | exact |Search filter by profile verification status |
+| `user__enu_user_class__is_email_verified` | boolean | exact |Search filter by email verification status . |
+| `user__enu_user_class__is_denied` | boolean | exact |Search filter by denied status. |
+
 
 #### Get member
 `GET /api/public/members/{memberId or mainNetAccount}/`
