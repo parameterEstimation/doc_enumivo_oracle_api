@@ -11,4 +11,4 @@ This method returns a list of members registered in enumivo oracle.
 
 ###### Responses
 ###### `200` OK (application/json)
-######Returns paginated list of organizations.
+###### Returns paginated list of organizations.
