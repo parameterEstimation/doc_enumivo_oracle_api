@@ -7,8 +7,8 @@ This is the reference for the Enumivo Oracle REST APIs. The REST APIs are for de
 #### Get members
 `GET /api/public/members/`
 
-This method returns a list of members registered in enumiv oracle.
+This method returns a list of members registered in enumivo oracle.
 
 ###### Responses
 ###### `200` OK (application/json)
-Returns paginated list of organizations.
+######Returns paginated list of organizations.
