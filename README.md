@@ -13,7 +13,7 @@ This method returns a list of members registered in enumivo oracle.
 | --- | --- | --- |
 | `200` OK | application/json | Returns paginated list of organizations. |
 
-##### Query parameters
+###### Query parameters
 | Query | Type | Description |
 | --- | --- | --- |
 | `limit` | integer | The maximum number of items to return per page. |
