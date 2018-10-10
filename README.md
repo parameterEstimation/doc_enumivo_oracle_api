@@ -13,6 +13,17 @@ This method returns a list of members registered in enumivo oracle.
 | --- | --- | --- |
 | `200` OK | application/json | Returns paginated list of organizations. |
 
+##### Query parameters
+###### **limit** *integer*
+
+The maximum number of items to return per page.
+
+###### **organizationId** *integer*
+
+Filters customer requests that belong to a specific organization (note that the user must be a member of that organization). **Note:** Valid only when used with requestOwnership=ORGANIZATION.
+
+###### **requestOwnership** *array*
+
 #### Get member
 `GET /api/public/members/{memberId or mainNetAccount}/`
 
