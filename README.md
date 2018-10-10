@@ -14,8 +14,10 @@ This method returns a list of members registered in enumivo oracle.
 | `200` OK | application/json | Returns paginated list of organizations. |
 
 ##### Query parameters
-**limit** *integer* The maximum number of items to return per page.  
-**search** *string* Search filter lookup to screen name and enumivo mainnet account.
+| Query | Type | Description |
+| --- | --- | --- |
+| `limit` | integer | The maximum number of items to return per page. |
+| `search` | string | Search filter lookup to screen name and enumivo mainnet account. |
 
 #### Get member
 `GET /api/public/members/{memberId or mainNetAccount}/`
