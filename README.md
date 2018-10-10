@@ -13,3 +13,12 @@ This method returns a list of members registered in enumivo oracle.
 | --- | --- | --- |
 | `200` OK | application/json | Returns paginated list of organizations. |
 
+#### Get member
+`GET /api/public/members/{memberId or mainNetAccount}/`
+
+This method returns details of a member. Use this method to get member's details by passing member's id or members enumivo mainnet account.
+
+###### Responses
+| Code | Type | Description |
+| --- | --- | --- |
+| `200` OK | application/json | Returns the requested member. |
